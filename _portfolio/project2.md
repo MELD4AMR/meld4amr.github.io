@@ -1,18 +1,26 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: "Scalable Molecular Analysis"
+subtitle: "Evaluating efficiency and predictive performance across molecular research tasks."
 image: assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
+icon: "fas fa-chart-line"
+
 caption:
-  title: Explore
-  subtitle: Graphic Design
+  title: "Scalability & Benchmarking"
+  subtitle: "Planned research publication"
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+This planned publication will examine the computational efficiency and predictive performance of MELD4AMR molecular representations.
+
+The study will evaluate how compact embeddings perform across selected molecular analysis tasks, considering both the quality of their predictions and the resources required to compute them.
+
+The aim is to clarify the trade-offs involved in scaling molecular analysis to larger datasets.
+
+Publication details and a link to the paper will be added when available.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
-
+- Status: Planned publication
+- Research area: Computational efficiency and benchmarking
+- Project: MELD4AMR

@@ -220,11 +220,9 @@ en: &DEFAULT_EN
     subject: "MELD4AMR Research Enquiry"
     submit: "Send Message"
 
-  # Unused demo sections.
-  # Remove their includes from the page layout.
   portfolio:
-    title: ""
-    text: ""
+    title: "Upcoming Publications"
+    text: "Planned research themes. Published papers will be linked as they become available."
     section: portfolio
     closebutton: "Close"
 

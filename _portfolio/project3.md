@@ -1,18 +1,26 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: "Interpretable Molecular Representations"
+subtitle: "Investigating whether compact embeddings retain biologically meaningful information."
 image: assets/img/portfolio/03-full.jpg
 alt: 
 
+icon: "fas fa-search"
+
 caption:
-  title: Finish
-  subtitle: Identity
+  title: "Interpretability"
+  subtitle: "Planned research publication"
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+This planned publication will investigate how biologically and chemically relevant information can remain accessible in compact molecular representations.
+
+The research will examine interpretability at the representation level, helping researchers assess what an embedding retains and how that information relates to molecular properties.
+
+The aim is to support transparent molecular analysis without relying on predictive performance alone.
+
+Publication details and a link to the paper will be added when available.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Finish
-- Category: Identity
-
+- Status: Planned publication
+- Research area: Molecular interpretability
+- Project: MELD4AMR

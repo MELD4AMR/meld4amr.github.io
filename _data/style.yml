@@ -1,8 +1,8 @@
-#Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
+# Color customization
+highlight: "#5EEAD4" # Teal accents
+white: "#F1F5F9"     # Off-white text
+black: "#0B1220"     # Deep navy
 
-#Image Customization
-header-image: "../img/header-bg.jpg"
-contact-image: "../img/map-image.png"
+# Image customization
+header-image: ""
+contact-image: ""

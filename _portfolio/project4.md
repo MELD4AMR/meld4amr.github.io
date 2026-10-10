@@ -1,18 +1,26 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: "Explainable Molecular Analysis"
+subtitle: "Connecting molecular representations with insights relevant to antimicrobial research."
 image: assets/img/portfolio/04-full.jpg
 alt: 
 
+icon: "fas fa-lightbulb"
+
 caption:
-  title: Lines
-  subtitle: Branding
+  title: "Explainability & Applications"
+  subtitle: "Planned research publication"
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+This planned publication will explore how compact molecular representations can provide explanations that are useful to researchers.
+
+The work will investigate connections between representation features and selected molecular analysis tasks, including peptide classification and antimicrobial research applications.
+
+The aim is to evaluate the usefulness and limitations of these explanations, rather than treating a successful prediction as a complete scientific explanation.
+
+Publication details and a link to the paper will be added when available.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Lines
-- Category: Branding
-
+- Status: Planned publication
+- Research area: Explainability and application-driven validation
+- Project: MELD4AMR

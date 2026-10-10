@@ -1,18 +1,26 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: "Privacy-Aware Molecular Collaboration"
+subtitle: "Investigating responsible molecular data analysis across institutions."
 image: assets/img/portfolio/05-full.jpg
 alt: 
 
+icon: "fas fa-shield-alt"
+
 caption:
-  title: Southwest
-  subtitle: Website Design
+  title: "Privacy & Collaboration"
+  subtitle: "Planned research publication"
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+
+This planned publication will investigate privacy-preserving approaches to molecular representation and collaborative analysis.
+
+The research will examine the balance between protecting sensitive information and retaining useful signals for molecular research, including evaluation in collaborative and federated settings.
+
+The aim is to support responsible cross-institutional research while assessing the practical limits of privacy and analytical utility.
+
+Publication details and a link to the paper will be added when available.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Southwest
-- Category: Website Design
-
+- Status: Planned publication
+- Research area: Privacy-aware and federated analysis
+- Project: MELD4AMR
