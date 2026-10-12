@@ -54,17 +54,40 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "Follow the project from its beginning to its published research."
+    text: "Explore the key milestones of the MELD4AMR project, from its initial research foundations and conception to its implementation and ongoing scientific collaboration."
     section: timeline
     start_align: "left"
     events:
-      - title: "Project Start"
-        year: "[CONFIRM START MONTH AND YEAR]"
+      - title: "First Foundational Publication"
+        year: "January 2023"
         desc: >-
-          MELD4AMR brings together German and Serbian researchers to advance
-          efficient, interpretable, and privacy-aware molecular
-          representations for antimicrobial resistance research.
+          **Hattab, G.**, **Anžel, A.**, Spänig, S., Neumann, N., & Heider, D. (01 2023). *A parametric approach for molecular encodings using multilevel atomic neighborhoods applied to peptide classification*. NAR Genomics and Bioinformatics, 5(1). [https://doi.org/10.1093/nargab/lqac103](https://doi.org/10.1093/nargab/lqac103){:target='_blank'}
+        icon: "fas fa-file-alt"
+        align: "left"
+      - title: "Second Foundational Publication"
+        year: "May 2024"
+        desc: >-
+          Weckbecker, M., **Anžel, A.**, Yang, Z., & **Hattab, G.** (2024). *Interpretable Molecular Encodings and Representations for Machine Learning Tasks*. Computational and Structural Biotechnology Journal, 23, 2326–2336. [https://doi.org/10.1016/j.csbj.2024.05.035](https://doi.org/10.1016/j.csbj.2024.05.035){:target='_blank'}
+        icon: "fas fa-file-alt"
+        align: "right"
+      - title: "Project Conception and Collaboration"
+        year: "April 2025"
+        desc: >-
+          Dr. Aleksandar Anžel and PD Dr. Georges Hattab initiated the project concept, establishing the foundation for a collaborative research effort. They brought together Nevena Ćirić, Prof. Dr. Jovana Kovačević, and Dr. Nevena Veljković to contribute their complementary expertise and strengthen the scientific collaboration.
+        icon: "fas fa-edit"
+        align: "left"
+      - title: "Official Project Start"
+        year: "November 2026"
+        desc: >-
+          MELD4AMR brings together researchers from Germany and Serbia to develop efficient, interpretable, and privacy-aware molecular representations for antimicrobial resistance research. The project builds on established research in molecular encoding and machine learning to advance methods that support reliable, transparent, and collaborative scientific discovery.
         icon: "fas fa-flag"
+        align: "right"
+      - title: "Ongoing Research and Implementation"
+        year: ""
+        desc: >-
+          The team is actively implementing the project objectives, translating the research concept into practical methods and tools. Through coordinated efforts across the participating institutions, the researchers are progressively developing and evaluating approaches to molecular representation that address the challenges of antimicrobial resistance research.
+        icon: "fas fa-cogs"
+        align: "left"
 
       # Add publications only after they have been published.
       #
@@ -85,7 +108,7 @@ en: &DEFAULT_EN
       # Project milestone	"fas fa-check-circle"
       # Project completion	"fas fa-rocket"
 
-    end: "More<br>to Come"
+    # end: "More<br>to Come"
 
   team:
     title: "Research Team"
