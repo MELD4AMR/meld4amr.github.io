@@ -910,61 +910,118 @@ header.masthead .intro-text .intro-heading {
   margin: 0;
 }
 
-/* Institutions and funding via the existing clients section */
+/* Institutions and funding logos */
 
 #clients {
-  padding: 88px 0;
   background-color: rgba(16, 29, 49, 0.78);
 }
 
-.client-card {
+.clients-logo-grid {
+  align-items: stretch;
+}
+
+.client-logo-column {
   display: flex;
+}
+
+.client-logo-card {
+  display: flex;
+  flex: 1 1 auto;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  min-height: 178px;
-  padding: 22px 14px;
-  color: var(--color-text-muted);
+  justify-content: center;
+  min-height: 174px;
+  padding: 22px 18px;
+  color: inherit;
   text-align: center;
   text-decoration: none;
-  border: 1px solid var(--color-border);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 10px;
-  background-color: rgba(19, 35, 58, 0.82);
-  box-shadow: var(--shadow-sm);
+
+  /*
+   * White logo plate: preserves original institutional logo colours
+   * and avoids needing to edit SVGs with opaque backgrounds.
+   */
+  background-color: #ffffff;
+
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
   transition:
     border-color 0.2s ease,
-    background-color 0.2s ease,
-    color 0.2s ease,
+    box-shadow 0.2s ease,
     transform 0.2s ease;
 }
 
-a.client-card:hover,
-a.client-card:focus {
-  color: var(--color-text);
+a.client-logo-card:hover,
+a.client-logo-card:focus {
+  color: inherit;
   text-decoration: none;
   border-color: var(--color-accent);
-  background-color: rgba(23, 51, 73, 0.95);
+  background-color: #ffffff;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
   transform: translateY(-3px);
 }
 
-.client-card > i {
-  margin-bottom: 14px;
-  color: var(--color-accent);
-  font-size: 2rem;
-}
-
-.client-card-title {
-  color: var(--color-text);
-  font-size: 1rem;
+.client-logo-label {
+  display: block;
+  margin-bottom: 13px;
+  color: #4b5563;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
   font-weight: 600;
-  line-height: 1.3;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
-.client-card-subtitle {
-  margin-top: 8px;
-  color: var(--color-text-subtle);
-  font-size: 0.8rem;
-  line-height: 1.4;
+/*
+ * No filter: preserves the original logo colours exactly.
+ * `object-fit: contain` ensures that each full logo remains visible
+ * without stretching or cropping.
+ */
+.client-logo {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  max-height: 92px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  background-color: transparent;
+  filter: none;
+  opacity: 1;
+  transition: transform 0.2s ease;
+}
+
+a.client-logo-card:hover .client-logo,
+a.client-logo-card:focus .client-logo {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.client-logo-fallback {
+  color: #334155;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+@media (max-width: 767.98px) {
+  .client-logo-card {
+    min-height: 140px;
+    padding: 18px 12px;
+  }
+
+  .client-logo {
+    max-width: 135px;
+    max-height: 68px;
+  }
+
+  .client-logo-label {
+    margin-bottom: 10px;
+    font-size: 0.66rem;
+  }
 }
 
 /* Footer */
@@ -1121,11 +1178,6 @@ ul.social-buttons li a:focus {
 
   .team-map-text {
     margin-bottom: 22px;
-  }
-
-  .client-card {
-    min-height: 170px;
-    padding: 20px 12px;
   }
 
   ul.social-buttons li {

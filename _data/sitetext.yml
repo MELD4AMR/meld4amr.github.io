@@ -183,30 +183,50 @@ en: &DEFAULT_EN
 
   clients:
     title: "Institutions & Funding"
-    text: "Research partners, academic affiliations, industry advice, and funding support."
+    text: "MELD4AMR is delivered through German–Serbian research collaboration and funding support."
     section: clients
-    max-height: 80px
+
+    # Maximum visible logo height in pixels.
+    max-height: 92px
+
+    # Keep logos wrapped and responsive rather than horizontally scrolling.
     horizontal-scrolling: "no"
+
     list:
       - title: "Robert Koch Institute"
-        subtitle: "ZKI-PH · German Research Partner"
-        url: ""
-        icon: "fas fa-university"
+        logo: "assets/img/clients/rki-logo.svg"
+        alt: "Robert Koch Institute"
+        url: "https://www.rki.de/"
+        label: ""
+        category: "institution"
 
       - title: "University of Belgrade"
-        subtitle: "Faculty of Mathematics · Serbian Research Partner"
-        url: ""
-        icon: "fas fa-university"
+        logo: "assets/img/clients/university-of-belgrade-logo.png"
+        alt: "University of Belgrade, Faculty of Mathematics"
+        url: "https://matf.bg.ac.rs/"
+        label: ""
+        category: "institution"
+
+      - title: "Freie Universität Berlin"
+        logo: "assets/img/clients/fub-logo.svg"
+        alt: "Freie Universität Berlin"
+        url: "https://www.fu-berlin.de/en/index.html"
+        label: ""
+        category: "institution"
 
       - title: "Genial D.O.O."
-        subtitle: "Industry Advisory"
-        url: ""
-        icon: "fas fa-building"
+        logo: "assets/img/clients/genial-logo.png"
+        alt: "Genial D.O.O."
+        url: "https://genial.rs/"
+        label: ""
+        category: "industry-advisor"
 
       - title: "BMFTR"
-        subtitle: "WEB2025 Funding Programme"
-        url: ""
-        icon: "fas fa-landmark"
+        logo: "assets/img/clients/bmftr-logo.svg"
+        alt: "Federal Ministry of Research, Technology and Space"
+        url: "https://www.bmftr.bund.de/EN/Home/home_node.html"
+        label: "Funded by"
+        category: "funder"
 
   footer:
     legal: ""

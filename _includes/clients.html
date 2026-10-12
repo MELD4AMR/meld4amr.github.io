@@ -15,26 +15,40 @@
     </div>
     {% endif %}
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center clients-logo-grid">
       {% for client in clients.list %}
-      <div class="col-6 col-md-3 mb-4">
+      <div class="col-6 col-md-3 mb-4 client-logo-column">
         {% if client.url and client.url != "" %}
         <a
-          class="client-card"
+          class="client-logo-card"
           href="{{ client.url }}"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="{{ client.title }}"
         >
         {% else %}
-        <div class="client-card">
+        <div
+          class="client-logo-card"
+          role="group"
+          aria-label="{{ client.title }}"
+        >
         {% endif %}
 
-          <i class="{{ client.icon }}" aria-hidden="true"></i>
-          <span class="client-card-title">{{ client.title }}</span>
+          {% if client.label %}
+          <span class="client-logo-label">{{ client.label }}</span>
+          {% endif %}
 
-          {% if client.subtitle %}
-          <span class="client-card-subtitle">{{ client.subtitle }}</span>
+          {% if client.logo %}
+          <img
+            class="client-logo"
+            src="{{ client.logo | relative_url }}"
+            alt="{{ client.alt | default: client.title }}"
+            loading="lazy"
+          >
+          {% else %}
+          <span class="client-logo-fallback" aria-hidden="true">
+            {{ client.title }}
+          </span>
           {% endif %}
 
         {% if client.url and client.url != "" %}
