@@ -151,8 +151,8 @@ en: &DEFAULT_EN
           - url: "https://www.linkedin.com/in/georges-hattab-64787b57"
             icon: "fab fa-linkedin"
 
-      - name: "Prof. Dr. Jovana Kovačević · Serbia"
-        role: "Scientific Mentorship"
+      - name: "Prof. Dr. Jovana Kovačević"
+        role: "Scientific Mentorship · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
