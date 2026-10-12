@@ -202,8 +202,8 @@ en: &DEFAULT_EN
 
       - title: "University of Belgrade"
         logo: "assets/img/clients/university-of-belgrade-logo.png"
-        alt: "University of Belgrade, Faculty of Mathematics"
-        url: "https://matf.bg.ac.rs/"
+        alt: "University of Belgrade"
+        url: "https://www.bg.ac.rs/home/"
         label: ""
         category: "institution"
 
@@ -211,6 +211,13 @@ en: &DEFAULT_EN
         logo: "assets/img/clients/fub-logo.svg"
         alt: "Freie Universität Berlin"
         url: "https://www.fu-berlin.de/en/index.html"
+        label: ""
+        category: "institution"
+
+      - title: "Faculty of Mathematics"
+        logo: "assets/img/clients/matf-logo.png"
+        alt: "Faculty of Mathematics"
+        url: "https://www.matf.bg.ac.rs/"
         label: ""
         category: "institution"
 
