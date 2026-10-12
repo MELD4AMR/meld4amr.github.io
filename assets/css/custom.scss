@@ -1016,6 +1016,7 @@ ul.social-buttons li a {
   width: 44px;
   height: 44px;
   color: var(--color-text);
+  margin: 16px 0 0; // Adds space above the icons
   border: 1px solid var(--color-border);
   border-radius: 50%;
   outline: none;

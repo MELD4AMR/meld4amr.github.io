@@ -123,35 +123,55 @@ en: &DEFAULT_EN
         institution: "ZKI-PH, Robert Koch Institute"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
-        social: []
+        social:
+          - url: "https://aanzel.github.io/"
+            icon: "fas fa-globe"
+          - url: "https://www.linkedin.com/in/aanzel/"
+            icon: "fab fa-linkedin"
 
       - name: "Nevena Ćirić"
         role: "Project Lead · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
-        social: []
+        social:
+          - url: "https://poincare.matf.bg.ac.rs/~nevena.ciric/"
+            icon: "fas fa-globe"
+          - url: "https://rs.linkedin.com/in/nevena-ciric"
+            icon: "fab fa-linkedin"
 
       - name: "PD Dr. Georges Hattab"
         role: "Scientific Oversight · Germany"
         institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
-        social: []
+        social:
+          - url: "https://visualization.group/hattab/"
+            icon: "fas fa-globe"
+          - url: "https://www.linkedin.com/in/georges-hattab-64787b57"
+            icon: "fab fa-linkedin"
 
       - name: "Prof. Dr. Jovana Kovačević · Serbia"
         role: "Scientific Mentorship"
         institution: "Faculty of Mathematics, University of Belgrade"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
-        social: []
+        social:
+          - url: "https://www.matf.bg.ac.rs/zaposleni/jovana-kovacevic/"
+            icon: "fas fa-globe"
+          - url: "https://rs.linkedin.com/in/jovana-kova%C4%8Devi%C4%87-683b6752"
+            icon: "fab fa-linkedin"
 
       - name: "Dr. Nevena Veljković"
         role: "Industry Advisor · Serbia"
         institution: "Genial D.O.O. / Vinča Institute of Nuclear Sciences"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
-        social: []
+        social:
+          - url: "https://genial.rs/about/"
+            icon: "fas fa-globe"
+          - url: "https://rs.linkedin.com/in/nevena-veljkovi%C4%87-b60aba39"
+            icon: "fab fa-linkedin"
 
     collaboration_map:
       title: ""
