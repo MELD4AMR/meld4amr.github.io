@@ -1,0 +1,128 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1600 1200"
+  width="1600"
+  height="1200"
+  role="img"
+  aria-labelledby="map-title map-description"
+>
+  <title id="map-title">Europe map highlighting Germany and Serbia</title>
+  <desc id="map-description">
+    A simplified map of Europe with Germany and Serbia highlighted to represent
+    the MELD4AMR German–Serbian research collaboration.
+  </desc>
+
+  <defs>
+    <linearGradient id="map-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1B2F"/>
+      <stop offset="100%" stop-color="#102A43"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Scale original design uniformly by 2 -->
+  <g transform="scale(2)">
+    <rect width="800" height="600" rx="18" fill="url(#map-background)"/>
+
+    <!-- Decorative geographic reference grid -->
+    <g stroke="#7DD3FC" stroke-width="0.75" opacity="0.08">
+      <path d="M80 120H720M80 220H720M80 320H720M80 420H720M80 520H720"/>
+      <path d="M140 70V540M260 70V540M380 70V540M500 70V540M620 70V540"/>
+    </g>
+
+    <!-- Simplified European land silhouette -->
+    <g
+      fill="#21354E"
+      stroke="#526984"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    >
+      <path d="M135 333 L207 320 L236 355 L224 412 L179 430 L138 398 Z"/>
+      <path d="M245 286 L315 271 L351 309 L339 376 L286 398 L242 357 Z"/>
+      <path d="M215 182 L238 164 L259 189 L250 229 L225 240 L209 215 Z"/>
+      <path d="M182 197 L200 188 L209 213 L197 232 L179 222 Z"/>
+      <path d="M324 254 L350 248 L362 276 L345 292 L325 281 Z"/>
+      <path d="M355 208 L390 207 L400 224 L372 236 L349 225 Z"/>
+      <path d="M377 99 L418 83 L447 130 L438 211 L407 224 L390 179 Z"/>
+      <path d="M443 106 L479 112 L496 184 L474 238 L440 210 Z"/>
+      <path d="M490 105 L531 121 L538 183 L508 212 L483 181 Z"/>
+      <path d="M353 387 L377 379 L402 412 L421 461 L401 486 L378 444 L352 421 Z"/>
+      <path d="M414 481 L442 498 L422 514 L398 503 Z"/>
+      <path d="M340 360 L374 357 L391 376 L369 392 L341 384 Z"/>
+      <path d="M386 361 L450 354 L472 376 L426 395 L390 387 Z"/>
+      <path d="M409 249 L474 243 L500 280 L477 322 L421 318 L400 282 Z"/>
+      <path d="M400 324 L441 319 L456 340 L426 354 L401 346 Z"/>
+      <path d="M450 321 L489 319 L504 340 L475 354 L451 343 Z"/>
+      <path d="M452 351 L497 345 L520 368 L493 390 L454 378 Z"/>
+      <path d="M514 346 L566 343 L585 382 L553 414 L514 395 Z"/>
+      <path d="M531 411 L584 405 L599 425 L551 442 L527 429 Z"/>
+      <path d="M500 441 L529 452 L545 488 L524 511 L501 478 L484 458 Z"/>
+      <path d="M535 490 L564 505 L552 521 L530 508 Z"/>
+      <path d="M500 220 L525 216 L533 246 L515 258 L498 245 Z"/>
+      <path d="M525 248 L552 244 L559 276 L538 288 L520 272 Z"/>
+      <path d="M548 279 L575 276 L580 309 L555 320 L539 298 Z"/>
+      <path d="M574 272 L677 261 L704 321 L670 370 L596 360 L564 323 Z"/>
+      <path d="M446 393 L476 384 L495 403 L481 427 L455 420 Z"/>
+      <path d="M480 390 L511 384 L526 404 L509 423 L487 414 Z"/>
+      <path d="M505 389 L531 382 L548 401 L534 418 L515 413 Z"/>
+      <path d="M472 423 L501 417 L516 438 L494 452 L473 441 Z"/>
+      <path d="M499 423 L529 417 L544 439 L520 451 L500 442 Z"/>
+    </g>
+
+    <!-- Germany -->
+    <path
+      d="M350 237 L382 227 L408 246 L410 281
+         L392 315 L362 323 L340 300 L345 274 Z"
+      fill="#5EEAD4"
+      stroke="#CCFBF1"
+      stroke-width="2"
+      stroke-linejoin="round"
+      filter="url(#glow)"
+    />
+
+    <!-- Serbia -->
+    <path
+      d="M491 401 L511 391 L531 404 L527 425
+         L511 438 L493 426 L483 413 Z"
+      fill="#7DD3FC"
+      stroke="#E0F2FE"
+      stroke-width="2"
+      stroke-linejoin="round"
+      filter="url(#glow)"
+    />
+
+    <!-- Collaboration connection -->
+    <path
+      d="M382 286 C425 315, 452 356, 508 414"
+      fill="none"
+      stroke="#5EEAD4"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-dasharray="6 8"
+      opacity="0.95"
+    />
+
+    <!-- Location markers -->
+    <g>
+      <circle cx="382" cy="286" r="7" fill="#08111F" stroke="#CCFBF1" stroke-width="3"/>
+      <circle cx="508" cy="414" r="7" fill="#08111F" stroke="#E0F2FE" stroke-width="3"/>
+    </g>
+
+    <!-- Labels -->
+    <g
+      font-family="IBM Plex Sans, Arial, sans-serif"
+      font-size="18"
+      font-weight="600"
+    >
+      <text x="320" y="214" fill="#CCFBF1">Germany</text>
+      <text x="530" y="393" fill="#E0F2FE">Serbia</text>
+    </g>
+  </g>
+</svg>

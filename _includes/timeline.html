@@ -1,0 +1,51 @@
+{% assign timeline = site.data.sitetext[site.locale].timeline %}
+
+{% if timeline %}
+<section class="page-section" id="{{ timeline.section }}">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">{{ timeline.title }}</h2>
+
+      {% if timeline.text %}
+      <h3 class="section-subheading text-muted">{{ timeline.text }}</h3>
+      {% endif %}
+    </div>
+
+    <ul class="timeline">
+      {% for event in timeline.events %}
+      <li{% if event.align == "right" %} class="timeline-inverted"{% endif %}>
+        <div class="timeline-image" aria-hidden="true">
+          <i class="{{ event.icon | default: 'fas fa-circle' }}"></i>
+        </div>
+
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            {% if event.year %}
+            <h4>{{ event.year }}</h4>
+            {% endif %}
+
+            {% if event.title %}
+            <h4 class="subheading">{{ event.title }}</h4>
+            {% endif %}
+          </div>
+
+          {% if event.desc %}
+          <div class="timeline-body">
+            {{ event.desc | markdownify }}
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+
+      {% if timeline.end %}
+      <li class="timeline-inverted">
+        <div class="timeline-image timeline-end">
+          <h4>{{ timeline.end }}</h4>
+        </div>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</section>
+{% endif %}

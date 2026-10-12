@@ -1,0 +1,50 @@
+{% assign clients = site.data.sitetext[site.locale].clients %}
+
+{% if clients and clients.list.size > 0 %}
+<section class="page-section" id="{{ clients.section }}">
+  <div class="container">
+    {% if clients.title %}
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-heading">{{ clients.title }}</h2>
+
+        {% if clients.text %}
+        <p class="section-subheading">{{ clients.text }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="row justify-content-center">
+      {% for client in clients.list %}
+      <div class="col-6 col-md-3 mb-4">
+        {% if client.url and client.url != "" %}
+        <a
+          class="client-card"
+          href="{{ client.url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="{{ client.title }}"
+        >
+        {% else %}
+        <div class="client-card">
+        {% endif %}
+
+          <i class="{{ client.icon }}" aria-hidden="true"></i>
+          <span class="client-card-title">{{ client.title }}</span>
+
+          {% if client.subtitle %}
+          <span class="client-card-subtitle">{{ client.subtitle }}</span>
+          {% endif %}
+
+        {% if client.url and client.url != "" %}
+        </a>
+        {% else %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

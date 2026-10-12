@@ -1,8 +1,22 @@
-# Color customization
-highlight: "#5EEAD4" # Teal accents
-white: "#F1F5F9"     # Off-white text
-black: "#0B1220"     # Deep navy
+# MELD4AMR color system
+highlight: "#5EEAD4"
+white: "#EDF4FB"
+black: "#08111F"
 
-# Image customization
+# Global gradient
+# Adjust these three colors to change the site-wide background.
+gradient-start: "#08111F"
+gradient-middle: "#0D1B2F"
+gradient-end: "#103044"
+
+# Decorative image customization
+# The header no longer uses a background image.
 header-image: ""
-contact-image: ""
+
+# Europe map shown in the contact section.
+# contact-image: "assets/img/europe-germany-serbia.svg"
+
+# Optional Font URLs.
+# These override the template's default font imports in _includes/head.html.
+fonts_urls:
+  - "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"

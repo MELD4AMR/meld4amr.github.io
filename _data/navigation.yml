@@ -1,17 +1,3 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
-
-# English (default)
-# -----------------
-# Project navigation.
-# Section IDs must match the corresponding HTML sections.
-
 en: &DEFAULT_EN
   nav:
     - title: "Mission"
@@ -20,20 +6,17 @@ en: &DEFAULT_EN
     - title: "Research"
       section: services
 
-    - title: "Timeline & Publications"
+    - title: "Timeline"
       section: timeline
+
+    - title: "Publications"
+      section: portfolio
 
     - title: "Team"
       section: team
 
     - title: "Institutions"
-      section: institutions
-
-    - title: "Funding"
-      section: funding
-
-    - title: "Contact"
-      section: contact
+      section: clients
 
 en-US:
   <<: *DEFAULT_EN

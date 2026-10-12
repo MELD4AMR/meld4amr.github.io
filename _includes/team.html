@@ -1,0 +1,89 @@
+{% assign team = site.data.sitetext[site.locale].team %}
+
+{% if team %}
+<section class="bg-light page-section" id="{{ team.section }}">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">{{ team.title }}</h2>
+
+      {% if team.text %}
+      <h3 class="section-subheading text-muted">{{ team.text }}</h3>
+      {% endif %}
+    </div>
+
+    <div class="row justify-content-center">
+      {% for person in team.people %}
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="team-member">
+          {% if person.image %}
+          <div class="team-member-icon" aria-hidden="true">
+            <i class="{{ person.icon | default: 'fas fa-user' }}"></i>
+          </div>
+          {% else %}
+          <div class="team-member-icon" aria-hidden="true">
+            <i class="{{ person.icon | default: 'fas fa-user' }}"></i>
+          </div>
+          {% endif %}
+
+          <h4>{{ person.name }}</h4>
+
+          {% if person.role %}
+          <p class="team-member-role">{{ person.role }}</p>
+          {% endif %}
+
+          {% if person.institution %}
+          <p class="team-member-institution">{{ person.institution }}</p>
+          {% endif %}
+
+          {% if person.social and person.social.size > 0 %}
+          <ul class="list-inline social-buttons">
+            {% for network in person.social %}
+            <li class="list-inline-item">
+              <a
+                href="{{ network.url }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="{{ person.name }}"
+              >
+                <i class="{{ network.icon }}"></i>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% if team.subtext %}
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <p class="team-subtext">{{ team.subtext }}</p>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if team.collaboration_map %}
+    {% assign collaboration_map = team.collaboration_map %}
+    <div class="row team-collaboration-map">
+      <div class="col-lg-8 mx-auto text-center">
+        <h3 class="team-map-title">{{ collaboration_map.title }}</h3>
+
+        {% if collaboration_map.text %}
+        <p class="team-map-text">{{ collaboration_map.text }}</p>
+        {% endif %}
+
+        <figure class="team-map-figure">
+          <img
+            src="{{ collaboration_map.image | relative_url }}"
+            alt="{{ collaboration_map.alt }}"
+            loading="lazy"
+          >
+        </figure>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

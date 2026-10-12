@@ -1,35 +1,22 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
-
-# English (default)
-# -----------------
 # MELD4AMR public-facing website content.
-# Custom icon fields and sections need matching HTML includes.
+# Locale used in _config.yml: en-US
 
 en: &DEFAULT_EN
   header:
     title: "MELD4AMR"
-    text: "Molecular AI for Antimicrobial Resistance Research"
-    button: "Discover Our Mission"
-    buttonlink: "#about"
+    text: "Molecular Embeddings via Low-Distortions Framework for Antimicrobial Resistance"
+
 
   about:
     title: "Our Mission"
     text: "Efficient molecular representations. Interpretable insights. Responsible collaboration."
     body: >-
-      MELD4AMR is a German–Serbian research project developing
-      compact, interpretable, and privacy-aware molecular representations
-      for antimicrobial resistance (AMR) research.
-      We aim to make complex molecular data easier to analyse while
-      retaining information relevant to biological activity.
-      By bringing together expertise in artificial intelligence,
-      mathematics, and computational biology, we seek to support
+      MELD4AMR is a German–Serbian research project developing compact,
+      interpretable, and privacy-aware molecular representations for
+      antimicrobial resistance (AMR) research. We aim to make complex
+      molecular data easier to analyse while retaining information relevant
+      to biological activity. By bringing together expertise in artificial
+      intelligence, mathematics, and computational biology, we seek to support
       antimicrobial discovery and public health research.
     section: about
 
@@ -40,27 +27,33 @@ en: &DEFAULT_EN
     list:
       - title: "Efficient Molecular Embeddings"
         desc: >-
-          Developing compact molecular representations that aim to
-          preserve meaningful relationships while reducing the
-          computational demands of large-scale analysis.
+          Developing compact molecular representations that aim to preserve
+          meaningful relationships while reducing the computational demands
+          of large-scale analysis.
         icon: "fas fa-project-diagram"
 
       - title: "Interpretability & Explainability"
         desc: >-
-          Investigating how molecular representations can retain
-          biologically relevant information and provide insights
-          that researchers can understand and evaluate.
+          Investigating how molecular representations can retain biologically
+          relevant information and provide insights that researchers can
+          understand and evaluate.
         icon: "fas fa-search"
 
       - title: "Privacy-Aware Collaboration"
         desc: >-
-          Exploring privacy-preserving methods for molecular data
-          analysis to support responsible research and collaboration
-          across institutions and national borders.
+          Exploring privacy-preserving methods for molecular data analysis to
+          support responsible research and collaboration across institutions
+          and national borders.
         icon: "fas fa-shield-alt"
 
+  portfolio:
+    title: "Publications"
+    text: "Planned research themes. Published papers will be linked as they become available."
+    section: portfolio
+    closebutton: "Close"
+
   timeline:
-    title: "Timeline & Publications"
+    title: "Timeline"
     text: "Follow the project from its beginning to its published research."
     section: timeline
     start_align: "left"
@@ -68,22 +61,29 @@ en: &DEFAULT_EN
       - title: "Project Start"
         year: "[CONFIRM START MONTH AND YEAR]"
         desc: >-
-          MELD4AMR brings together German and Serbian researchers
-          to advance efficient, interpretable, and privacy-aware
-          molecular representations for antimicrobial resistance research.
+          MELD4AMR brings together German and Serbian researchers to advance
+          efficient, interpretable, and privacy-aware molecular
+          representations for antimicrobial resistance research.
         icon: "fas fa-flag"
 
-      # Add project publications here after they are published.
-      # The proposal's bibliography contains prior and related work,
-      # not publications produced by MELD4AMR.
+      # Add publications only after they have been published.
       #
       # - title: "[PUBLICATION TITLE]"
       #   year: "[MONTH YEAR]"
       #   desc: >-
-      #     [AUTHORS]. [JOURNAL OR CONFERENCE].
-      #     [One short sentence describing the contribution.]
+      #     [AUTHORS]. Published in [JOURNAL OR CONFERENCE].
       #     [Read the publication](https://doi.org/REPLACE-WITH-DOI)
       #   icon: "fas fa-file-alt"
+      #   align: "right"
+      # Project start	"fas fa-flag"
+      # Publication	"fas fa-file-alt"
+      # Open-source release	"fab fa-github"
+      # Software release	"fas fa-code"
+      # Dataset or benchmark	"fas fa-database"
+      # Workshop	"fas fa-users"
+      # Conference presentation	"fas fa-chalkboard-teacher"
+      # Project milestone	"fas fa-check-circle"
+      # Project completion	"fas fa-rocket"
 
     end: "More<br>to Come"
 
@@ -91,149 +91,81 @@ en: &DEFAULT_EN
     title: "Research Team"
     text: "Complementary expertise across Germany and Serbia."
     subtext: >-
-      Our team combines molecular representation research,
-      mathematical foundations, computational biology,
-      and industry expertise.
+      Our team combines molecular representation research, mathematical
+      foundations, computational biology, and industry expertise.
     section: team
     people:
       - name: "Dr. Aleksandar Anžel"
         role: "Project Lead · Germany"
         institution: "ZKI-PH, Robert Koch Institute"
+        image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social: []
 
       - name: "Nevena Ćirić"
         role: "Project Lead · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
+        image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social: []
 
       - name: "PD Dr. Georges Hattab"
         role: "Scientific Oversight"
         institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
+        image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social: []
 
       - name: "Prof. Dr. Jovana Kovačević"
         role: "Scientific Mentorship"
         institution: "Faculty of Mathematics, University of Belgrade"
+        image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social: []
 
       - name: "Dr. Nevena Veljković"
         role: "Industry Advisor"
         institution: "Genial D.O.O. / Vinča Institute of Nuclear Sciences"
+        image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social: []
 
-  institutions:
-    title: "Institutions & Collaboration"
-    text: "Research partners, industry advice, and academic connections."
-    section: institutions
+    collaboration_map:
+      title: ""
+      text:
+      image: "assets/img/europe-germany-serbia.svg"
+      alt: >-
+        Simplified map of Europe highlighting Germany and Serbia,
+        connected to represent the MELD4AMR research collaboration.
+
+  clients:
+    title: "Institutions & Funding"
+    text: "Research partners, academic affiliations, industry advice, and funding support."
+    section: clients
+    max-height: 80px
+    horizontal-scrolling: "no"
     list:
       - title: "Robert Koch Institute"
-        subtitle: "Center for Artificial Intelligence in Public Health Research (ZKI-PH)"
-        role: "German Research Partner"
-        country: "Germany"
-        desc: >-
-          Contributing expertise in molecular representations,
-          artificial intelligence, and privacy-aware public health research.
-        icon: "fas fa-university"
+        subtitle: "ZKI-PH · German Research Partner"
         url: ""
+        icon: "fas fa-university"
 
       - title: "University of Belgrade"
-        subtitle: "Faculty of Mathematics (MATF)"
-        role: "Serbian Research Partner"
-        country: "Serbia"
-        desc: >-
-          Contributing expertise in mathematical modelling,
-          algorithm development, computational biology,
-          and interpretable molecular representations.
-        icon: "fas fa-university"
+        subtitle: "Faculty of Mathematics · Serbian Research Partner"
         url: ""
+        icon: "fas fa-university"
 
       - title: "Genial D.O.O."
         subtitle: "Industry Advisory"
-        role: "Industry Advisor"
-        country: "Serbia"
-        desc: >-
-          Providing advice on applied data analysis,
-          software implementation, and pathways from research
-          to practical use.
+        url: ""
         icon: "fas fa-building"
-        url: ""
 
-      - title: "Freie Universität Berlin"
-        subtitle: "Academic Affiliation"
-        role: "Team Affiliation"
-        country: "Germany"
-        desc: >-
-          Connected to the project through the academic
-          affiliation of Georges Hattab.
-        icon: "fas fa-university"
-        url: ""
-
-      - title: "Vinča Institute of Nuclear Sciences"
-        subtitle: "Research Connections"
-        role: "Team Affiliation and Planned Cooperation"
-        country: "Serbia"
-        desc: >-
-          Connected through Nevena Veljković's research affiliation
-          and planned scientific cooperation.
-        icon: "fas fa-university"
-        url: ""
-
-  funding:
-    title: "Funding"
-    text: "Supporting German–Serbian research cooperation."
-    section: funding
-
-    # Complete this section using the award letter before publishing.
-    # The proposal identifies BMFTR and WEB2025 but does not provide
-    # a grant number or an approved public acknowledgement.
-    acknowledgement: ""
-    grant_number: ""
-    project_period: ""
-
-    list:
       - title: "BMFTR"
-        programme: "WEB2025"
-        icon: "fas fa-landmark"
+        subtitle: "WEB2025 Funding Programme"
         url: ""
-
-    # Add an official funder logo if required by the award conditions.
-    # logo: "assets/img/funding/funder-logo.svg"
-    # alt: "Official funding organisation logo"
-
-  contact:
-    title: "Contact"
-    text: "For research enquiries and potential collaborations."
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "MELD4AMR Research Enquiry"
-    submit: "Send Message"
-
-  portfolio:
-    title: "Upcoming Publications"
-    text: "Planned research themes. Published papers will be linked as they become available."
-    section: portfolio
-    closebutton: "Close"
-
-  clients:
-    section: clients
-    max-height: "100px"
-    horizontal-scrolling: "no"
-    list: []
+        icon: "fas fa-landmark"
 
   footer:
-    # Add legal labels and links when the corresponding pages exist.
     legal: ""
     social: []
 
