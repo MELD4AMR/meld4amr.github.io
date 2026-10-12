@@ -133,13 +133,13 @@ en: &DEFAULT_EN
         social: []
 
       - name: "PD Dr. Georges Hattab"
-        role: "Scientific Oversight"
+        role: "Scientific Oversight · Germany"
         institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social: []
 
-      - name: "Prof. Dr. Jovana Kovačević"
+      - name: "Prof. Dr. Jovana Kovačević · Serbia"
         role: "Scientific Mentorship"
         institution: "Faculty of Mathematics, University of Belgrade"
         image: "assets/img/team/placeholder.svg"
@@ -147,7 +147,7 @@ en: &DEFAULT_EN
         social: []
 
       - name: "Dr. Nevena Veljković"
-        role: "Industry Advisor"
+        role: "Industry Advisor · Serbia"
         institution: "Genial D.O.O. / Vinča Institute of Nuclear Sciences"
         image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
