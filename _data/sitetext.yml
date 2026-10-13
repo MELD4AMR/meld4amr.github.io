@@ -121,8 +121,8 @@ en: &DEFAULT_EN
       - name: "Dr. Aleksandar Anžel"
         role: "Project Lead · Germany"
         institution: "ZKI-PH, Robert Koch Institute"
-        image: "assets/img/team/placeholder.svg"
-        icon: "fas fa-user"
+        image: "assets/img/team/anzel_profile.webp"
+        # icon: "fas fa-user"
         social:
           - url: "https://aanzel.github.io/"
             icon: "fas fa-globe"
@@ -132,7 +132,7 @@ en: &DEFAULT_EN
       - name: "Nevena Ćirić"
         role: "Project Lead · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
-        image: "assets/img/team/placeholder.svg"
+        # image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social:
           - url: "https://poincare.matf.bg.ac.rs/~nevena.ciric/"
@@ -143,7 +143,7 @@ en: &DEFAULT_EN
       - name: "PD Dr. Georges Hattab"
         role: "Scientific Oversight · Germany"
         institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
-        image: "assets/img/team/placeholder.svg"
+        # image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social:
           - url: "https://visualization.group/hattab/"
@@ -154,8 +154,8 @@ en: &DEFAULT_EN
       - name: "Prof. Dr. Jovana Kovačević"
         role: "Scientific Mentorship · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
-        image: "assets/img/team/placeholder.svg"
-        icon: "fas fa-user"
+        image: "assets/img/team/jovana_profile.png"
+        # icon: "fas fa-user"
         social:
           - url: "https://www.matf.bg.ac.rs/zaposleni/jovana-kovacevic/"
             icon: "fas fa-globe"
@@ -165,7 +165,7 @@ en: &DEFAULT_EN
       - name: "Dr. Nevena Veljković"
         role: "Industry Advisor · Serbia"
         institution: "Genial D.O.O. / Vinča Institute of Nuclear Sciences"
-        image: "assets/img/team/placeholder.svg"
+        # image: "assets/img/team/placeholder.svg"
         icon: "fas fa-user"
         social:
           - url: "https://genial.rs/about/"

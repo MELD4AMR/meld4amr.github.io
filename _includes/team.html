@@ -16,13 +16,17 @@
       <div class="col-6 col-md-4 col-lg-3">
         <div class="team-member">
           {% if person.image %}
-          <div class="team-member-icon" aria-hidden="true">
-            <i class="{{ person.icon | default: 'fas fa-user' }}"></i>
-          </div>
+            <div class="team-member-photo">
+              <img
+                src="{{ person.image | relative_url }}"
+                alt="{{ person.name }}"
+                loading="lazy"
+              >
+            </div>
           {% else %}
-          <div class="team-member-icon" aria-hidden="true">
-            <i class="{{ person.icon | default: 'fas fa-user' }}"></i>
-          </div>
+            <div class="team-member-icon" aria-hidden="true">
+              <i class="{{ person.icon | default: 'fas fa-user' }}"></i>
+            </div>
           {% endif %}
 
           <h4>{{ person.name }}</h4>

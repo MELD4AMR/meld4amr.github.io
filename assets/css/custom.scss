@@ -912,24 +912,47 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-.team-member-icon {
+.team-member-icon,
+.team-member-photo {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 132px;
   height: 132px;
+  flex: 0 0 132px;
   margin: 0 auto;
-  color: var(--color-bg);
+  overflow: hidden;
   border: 5px solid var(--color-border);
   border-radius: 50%;
-  background:
-    linear-gradient(
-      135deg,
-      var(--color-accent) 0%,
-      var(--color-secondary) 100%
-    );
+  box-sizing: border-box;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Placeholder for people without a photo */
+.team-member-icon {
+  color: var(--color-bg);
+  background: linear-gradient(
+    135deg,
+    var(--color-accent) 0%,
+    var(--color-secondary) 100%
+  );
   font-size: 3.25rem;
+}
+
+.team-member-icon i {
+  display: block;
+  line-height: 1;
+}
+
+/* Circular profile photos */
+.team-member-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex: 0 0 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
 
 .team-member h4 {
