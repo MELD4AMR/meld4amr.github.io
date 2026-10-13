@@ -11,7 +11,7 @@ gradient-end: "#103044"
 
 # Decorative image customization
 # The header no longer uses a background image.
-header-image: ""
+header-image: "header.svg"
 
 # Europe map shown in the contact section.
 # contact-image: "assets/img/europe-germany-serbia.svg"

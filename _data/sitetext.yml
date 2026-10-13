@@ -48,7 +48,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Publications"
-    text: "Planned research themes. Published papers will be linked as they become available."
+    text: "Explore the key publications of the MELD4AMR project."
     section: portfolio
     closebutton: "Close"
 

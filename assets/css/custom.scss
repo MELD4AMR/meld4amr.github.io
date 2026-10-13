@@ -403,16 +403,104 @@ header.masthead {
     );
 }
 
+/* Hexagonal molecular network */
 header.masthead::before {
   position: absolute;
   inset: 0;
+  z-index: 0;
   pointer-events: none;
   content: "";
-  opacity: 0.35;
+
   background-image:
-    linear-gradient(rgba(125, 211, 252, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(125, 211, 252, 0.045) 1px, transparent 1px);
-  background-size: 40px 40px;
+    /* Hexagon outlines */
+    linear-gradient(
+      30deg,
+      transparent 24.5%,
+      var(--color-accent) 25%,
+      transparent 25.5%
+    ),
+    linear-gradient(
+      150deg,
+      transparent 24.5%,
+      var(--color-accent) 25%,
+      transparent 25.5%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 49.5%,
+      var(--color-secondary) 50%,
+      transparent 50.5%
+    );
+
+  background-size:
+    72px 124px,
+    72px 124px,
+    72px 124px;
+
+  opacity: 0.12;
+
+  /* Fade the pattern around the heading */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    black 0%,
+    black 18%,
+    transparent 45%,
+    transparent 55%,
+    black 82%,
+    black 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    black 0%,
+    black 18%,
+    transparent 45%,
+    transparent 55%,
+    black 82%,
+    black 100%
+  );
+}
+
+/* Highlighted molecular nodes */
+header.masthead::after {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+
+  background:
+    radial-gradient(
+      circle at 12% 28%,
+      var(--color-accent) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 22% 68%,
+      var(--color-secondary) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 35% 20%,
+      var(--color-accent) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 72% 27%,
+      var(--color-secondary) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 84% 65%,
+      var(--color-accent) 0 2px,
+      transparent 3px
+    ),
+    radial-gradient(
+      circle at 93% 38%,
+      var(--color-secondary) 0 2px,
+      transparent 3px
+    );
+
+  opacity: 0.8;
 }
 
 header.masthead .container,
@@ -1073,7 +1161,7 @@ ul.social-buttons li a {
   width: 44px;
   height: 44px;
   color: var(--color-text);
-  margin: 16px 0 0; // Adds space above the icons
+  margin: 16px 0 0;  /* Adds space above the icons */
   border: 1px solid var(--color-border);
   border-radius: 50%;
   outline: none;
