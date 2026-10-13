@@ -199,13 +199,13 @@ en: &DEFAULT_EN
         url: "https://www.rki.de/"
         label: ""
         category: "institution"
-
-      - title: "University of Belgrade"
-        logo: "assets/img/clients/university-of-belgrade-logo.png"
-        alt: "University of Belgrade"
-        url: "https://www.bg.ac.rs/home/"
-        label: ""
-        category: "institution"
+#
+#       - title: "University of Belgrade"
+#         logo: "assets/img/clients/university-of-belgrade-logo.png"
+#         alt: "University of Belgrade"
+#         url: "https://www.bg.ac.rs/home/"
+#         label: ""
+#         category: "institution"
 
       - title: "Freie Universität Berlin"
         logo: "assets/img/clients/fub-logo.svg"
