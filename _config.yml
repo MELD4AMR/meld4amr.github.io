@@ -18,7 +18,7 @@ url    : "https://meld4amr.github.io" # the base hostname & protocol for your si
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title: "MELD4AMR"
-email: "" # Add a public project contact email before enabling the contact form.
+email: "AnzelA@rki.de" # Add a public project contact email before enabling the contact form.
 description: "MELD4AMR is a German–Serbian research project developing efficient, interpretable, and privacy-aware molecular representations for antimicrobial resistance research."
 author: "MELD4AMR Consortium"
 # logo:     #optional, defaults to site title

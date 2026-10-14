@@ -140,17 +140,6 @@ en: &DEFAULT_EN
           - url: "https://rs.linkedin.com/in/nevena-ciric"
             icon: "fab fa-linkedin"
 
-      - name: "PD Dr. Georges Hattab"
-        role: "Scientific Oversight · Germany"
-        institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
-        image: "assets/img/team/hattab_profile.png"
-        # icon: "fas fa-user"
-        social:
-          - url: "https://visualization.group/hattab/"
-            icon: "fas fa-globe"
-          - url: "https://www.linkedin.com/in/georges-hattab-64787b57"
-            icon: "fab fa-linkedin"
-
       - name: "Prof. Dr. Jovana Kovačević"
         role: "Scientific Mentorship · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
@@ -160,6 +149,17 @@ en: &DEFAULT_EN
           - url: "https://www.matf.bg.ac.rs/zaposleni/jovana-kovacevic/"
             icon: "fas fa-globe"
           - url: "https://rs.linkedin.com/in/jovana-kova%C4%8Devi%C4%87-683b6752"
+            icon: "fab fa-linkedin"
+
+      - name: "PD Dr. Georges Hattab"
+        role: "Scientific Oversight · Germany"
+        institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
+        image: "assets/img/team/hattab_profile.png"
+        # icon: "fas fa-user"
+        social:
+          - url: "https://visualization.group/hattab/"
+            icon: "fas fa-globe"
+          - url: "https://www.linkedin.com/in/georges-hattab-64787b57"
             icon: "fab fa-linkedin"
 
       - name: "Dr. Nevena Veljković"
