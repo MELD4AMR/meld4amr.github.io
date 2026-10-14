@@ -143,8 +143,8 @@ en: &DEFAULT_EN
       - name: "PD Dr. Georges Hattab"
         role: "Scientific Oversight · Germany"
         institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
-        # image: "assets/img/team/placeholder.svg"
-        icon: "fas fa-user"
+        image: "assets/img/team/hattab_profile.png"
+        # icon: "fas fa-user"
         social:
           - url: "https://visualization.group/hattab/"
             icon: "fas fa-globe"
@@ -165,8 +165,8 @@ en: &DEFAULT_EN
       - name: "Dr. Nevena Veljković"
         role: "Industry Advisor · Serbia"
         institution: "Genial D.O.O. / Vinča Institute of Nuclear Sciences"
-        # image: "assets/img/team/placeholder.svg"
-        icon: "fas fa-user"
+        image: "assets/img/team/nevena_v_profile.jpg"
+        # icon: "fas fa-user"
         social:
           - url: "https://genial.rs/about/"
             icon: "fas fa-globe"
