@@ -132,7 +132,7 @@ en: &DEFAULT_EN
       - name: "Nevena Ćirić"
         role: "Project Lead · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
-        # image: "assets/img/team/placeholder.svg"
+        image: "assets/img/team/nevena_c_profile.png"
         icon: "fas fa-user"
         social:
           - url: "https://poincare.matf.bg.ac.rs/~nevena.ciric/"
