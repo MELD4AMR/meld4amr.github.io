@@ -1,7 +1,7 @@
 ---
 title: "Interpretable Molecular Encodings and Representations for Machine Learning Tasks"
 subtitle: "iCAN delivers interpretable carbon-neighborhood encodings for organic molecules, outperforming prior methods in peptide/protein classification across large biomedical datasets (71% win rate vs. structure-based baselines). It enables pattern visualization, relevance heatmaps, and versatile ML input for exotic amino acids, cyclic peptides, and proteins—accelerating drug discovery and diagnostics."
-image: assets/img/portfolio/ican.webp
+image: assets/img/portfolio/iCAN.webp
 alt: iCAN results figure
 
 icon: "fas fa-project-diagram"
@@ -9,7 +9,7 @@ icon: "fas fa-project-diagram"
 caption:
   title: "Interpretable Molecular Encodings and Representations for Machine Learning Tasks"
   subtitle: "Second Foundational Publication"
-  thumbnail: assets/img/portfolio/ican.webp
+  thumbnail: assets/img/portfolio/iCAN.webp
 ---
 
 [Read the article](https://doi.org/10.1016/j.csbj.2024.05.035){:.btn .btn-primary .mb-4 target="_blank" rel="noopener noreferrer"}
