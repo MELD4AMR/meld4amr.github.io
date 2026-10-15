@@ -28,7 +28,8 @@ author: "MELD4AMR Consortium"
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: "vg-hX3guPIVU1GByp4--imQD30dCdIdkE978K0ZMLts" #Google Analytics tracking code here
+
 
 collections:
   portfolio:
