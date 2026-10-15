@@ -76,18 +76,25 @@ en: &DEFAULT_EN
           Dr. Aleksandar Anžel and PD Dr. Georges Hattab initiated the project concept, establishing the foundation for a collaborative research effort. They brought together Nevena Ćirić, Prof. Dr. Jovana Kovačević, and Dr. Nevena Veljković to contribute their complementary expertise and strengthen the scientific collaboration.
         icon: "fas fa-edit"
         align: "left"
+      - title: "Project Repository and Website"
+        year: "October 2026"
+        desc: >-
+          The official MELD4AMR GitHub repository and project website were established to provide a central platform for sharing project information, research outputs, software, documentation, and related resources. The website serves as the public home for the project, while the repository supports transparent and collaborative development.
+          Visit the [GitHub repository](https://github.com/MELD4AMR) and the [project website](https://meld4amr.github.io/).
+        icon: "fas fa-book-open"
+        align: "right"
       - title: "Official Project Start"
         year: "November 2026"
         desc: >-
           MELD4AMR brings together researchers from Germany and Serbia to develop efficient, interpretable, and privacy-aware molecular representations for antimicrobial resistance research. The project builds on established research in molecular encoding and machine learning to advance methods that support reliable, transparent, and collaborative scientific discovery.
         icon: "fas fa-flag"
-        align: "right"
+        align: "left"
       - title: "Ongoing Research and Implementation"
         year: ""
         desc: >-
           The team is actively implementing the project objectives, translating the research concept into practical methods and tools. Through coordinated efforts across the participating institutions, the researchers are progressively developing and evaluating approaches to molecular representation that address the challenges of antimicrobial resistance research.
         icon: "fas fa-cogs"
-        align: "left"
+        align: "right"
 
       # Add publications only after they have been published.
       #
