@@ -189,7 +189,7 @@ en: &DEFAULT_EN
         connected to represent the MELD4AMR research collaboration.
 
   clients:
-    title: "Institutions & Funding"
+    title: "INSTITUTIONS & FUNDING"
     text: "MELD4AMR is delivered through German–Serbian research collaboration and funding support."
     section: clients
 
