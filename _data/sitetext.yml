@@ -128,7 +128,7 @@ en: &DEFAULT_EN
       - name: "Dr. Aleksandar Anžel"
         role: "Project Lead · Germany"
         institution: "ZKI-PH, Robert Koch Institute"
-        image: "assets/img/team/anzel_profile.webp"
+        image: "assets/img/team/anzel_profile.jpg"
         # icon: "fas fa-user"
         social:
           - url: "https://aanzel.github.io/"
