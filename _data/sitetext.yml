@@ -180,8 +180,8 @@ en: &DEFAULT_EN
           - url: "https://www.linkedin.com/in/yunsu-c-a387b2176"
             icon: "fab fa-linkedin"
 
-      - name: "Robert Doža · Serbia"
-        role: "Ph.D. Student"
+      - name: "Robert Doža"
+        role: "Ph.D. Student · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
         # image: "assets/img/team/robert_profile.jpeg"
         icon: "fas fa-user"
