@@ -148,7 +148,7 @@ en: &DEFAULT_EN
             icon: "fab fa-linkedin"
 
       - name: "Prof. Dr. Jovana Kovačević"
-        role: "Scientific Mentorship · Serbia"
+        role: "Scientific Oversight · Serbia"
         institution: "Faculty of Mathematics, University of Belgrade"
         image: "assets/img/team/jovana_profile.png"
         # icon: "fas fa-user"
@@ -167,6 +167,17 @@ en: &DEFAULT_EN
           - url: "https://visualization.group/hattab/"
             icon: "fas fa-globe"
           - url: "https://www.linkedin.com/in/georges-hattab-64787b57"
+            icon: "fab fa-linkedin"
+
+      - name: "Yunsu Cho"
+        role: "Ph.D. Student"
+        institution: "ZKI-PH, Robert Koch Institute / Freie Universität Berlin"
+        image: "assets/img/team/yunsu_profile.jpeg"
+        # icon: "fas fa-user"
+        social:
+          - url: "https://www.researchgate.net/profile/Yunsu-Cho"
+            icon: "fas fa-globe"
+          - url: "https://www.linkedin.com/in/yunsu-c-a387b2176"
             icon: "fab fa-linkedin"
 
       - name: "Dr. Nevena Veljković"
