@@ -180,6 +180,17 @@ en: &DEFAULT_EN
           - url: "https://www.linkedin.com/in/yunsu-c-a387b2176"
             icon: "fab fa-linkedin"
 
+      - name: "Robert Doža"
+        role: "Ph.D. Student"
+        institution: "Faculty of Mathematics, University of Belgrade"
+        # image: "assets/img/team/robert_profile.jpeg"
+        icon: "fas fa-user"
+        social:
+          - url: "https://www.matf.bg.ac.rs/zaposleni/robert-doza/"
+            icon: "fas fa-globe"
+          # - url: "https://www.linkedin.com/in/yunsu-c-a387b2176"
+          #   icon: "fab fa-linkedin"
+
       - name: "Dr. Nevena Veljković"
         role: "Industry Advisor · Serbia"
         institution: "Genial D.O.O. / Vinča Institute of Nuclear Sciences"
